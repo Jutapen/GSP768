@@ -1,0 +1,29 @@
+# Kredensial dan rahasia: jangan pernah di-commit
+*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.token
+.env
+.env.*
+credentials*
+secrets*
+id_rsa*
+id_ed25519*
+*.kubeconfig
+kubeconfig*
+.kube/
+.config/
+.boto
+*.tfstate
+*.tfstate.*
+
+# File kerja dan sampah
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+gsp768-work/
